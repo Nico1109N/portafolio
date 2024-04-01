@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Sumana:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sumana:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+:root{
+    --color-primario:#686868;
+    --color-footer:#0F1517; 
+    --font-family-textosh2:"Bungee Inline", sans-serif;
+    --font-family-textosp:"Sumana", serif;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+/* estilos encabezado */
+
+
+/* barra de navegcion */
+.navbar-expand-lg .navbar-collapse{
+     display: flex !important;
+}
+
+  
+.navbar-collapse{
+    justify-content: end;
+}
+.bg-trab{
+    position: fixed;
+    width: 100%;
+    background: var(--color-primario) !important;
+    padding: 25px;
+    z-index: 1; 
+}
+
+
+
+
+
+ .nav-link {
+    font-family: var(--font-family-textosp);
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+ .nav-link:hover{
+    color: aqua;
+}
+
+/* parte de mi información */
+
+/* logo */
+.bi-pc-display{
+    color: #807f7c;
+    position: absolute;
+    top: 220px;
+}
+
+
+.fondo {
+    background: #000000;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.fondo h2 {
+    font-family: "Bungee Inline", sans-serif;
+    color: #fff;
+}
+
+.fondo p {
+    font-family: var(--font-family-textosp);
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* iconos */
+
+.iconosr{
+    display: flex;
+    position: absolute;
+    top: 90%;
+}
+
+.bi-facebook{
+    background: darkblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bi-twitter-x{
+    background: #0F1517;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+.bi-instagram{
+    background: #ce0e9e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+/* fondo2 */
+.foto {
+    background: url(../img/foto1b.png) no-repeat;
+    width: 60%;
+    height: 100vh;
+    background-size: 100% 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* estilos main parte 1 */
+#parte2{
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos2{
+    width: 50%;
+    text-align: center;
+}
+
+.textos2 h2{
+    font-family: var(--font-family-textosh2);
+    color: #fff;
+}
+
+.textos2 p{
+    font-family: var(--font-family-textosp);
+    color: #fff;
+}
+
+.imagen2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+/* estilos seccion 3 */
+
+#parte3{
+    background: linear-gradient(to bottom, #000000, #1A4456);
+}
+
+#tituloh{
+    display: flex;
+    justify-content: center;
+}
+
+#tituloh h2{
+    font-family: var(--font-family-textosh2);
+    color: #fff;
+    margin-top: 90px;
+}
+
+.fila3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cajas{
+    background: #111010;
+    width: 250px;
+    height: 250px;
+    margin: 90px;
+    text-align: center;
+    
+}
+
+.cajas h2{
+    font-family: var(--font-family-textosh2);
+    color: #fff;
+}
+
+.cajas p{
+    font-family: var(--font-family-textosp);
+    color: #fff;
+
+}
+
+
+/* Etilos seccion 4 */
+#parte4{
+    background: #020B15;
+}
+
+#proyectos{
+    display: flex;
+    justify-content: center;
+}
+#proyectos h2 {
+margin-top: 80px;
+margin-bottom: 50px;
+color: #fff;
+font-family: var(--font-family-textosh2);
+}
+
+.filaa{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.filaa p{
+    margin-top: 20px;
+    color: #fff;
+    font-family: var(--font-family-textosp);
+    
+}
+
+.filaa2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tam{
+    width: 500px;
+    height: 400px;
+    
+}
+
+.tam img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* estilos seccion 5 */
+
+#parte5{
+    background: #000000;
+}
+
+#parte5 h2{
+    color: #fff;
+    font-family: var(--font-family-textosh2);
+    text-align: center;
+
+}
+
+.fila5{
+    display: flex;
+    justify-content: center;
+}
+.col5{
+    width: 200px;
+    height: 150px;
+    background: #a1b3bb;
+    border-radius: 50%;
+    margin: 80px;
+}
+
+.col5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.col5 p{
+    color: #fff;
+    font-family: var(--font-family-textosp);
+    text-align: center;
+}
+
+
+
+
+
+
+/* ESTILOS SECCION 6 */
+
+#parte6{
+    background:var(--color-primario)
+}
+
+
+
+#estudios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#estudios h2{
+    color: #fff;
+    font-family: var(--font-family-textosh2);
+   margin-bottom: 60px;
+   margin-top: 150px;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tarjetas .cards{
+    background: #35363d;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    transition: .5s;
+}
+
+.tarjetas .cards:hover{
+    transform: scale(1.3);
+}
+
+.cards h4{
+    font-family: var(--font-family-textosp);
+    color: #fff;
+    text-align: center;
+}
+
+.cards p{
+    font-family: var(--font-family-textosp);
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* Seccion footer */
+#final{
+    background: #0F1517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#final a{
+
+    padding: 15px 40px ;
+    border-radius: 5px;
+    color: #fff;
+    background: #686868;
+    text-decoration: none;
+}
+
+#final a:hover{
+    background: #0b1f8f;
+}
+
+
+/* phones */
+
+@media screen and (min-width: 300px) and (max-width:930px){
+   
+
+    .bg-trab{
+        /* background: #060c2e !important;
+        position: absolute;
+        display: unset;
+        z-index: 3; */
+        display: none;
+    }
+
+
+    .bi-pc-display{
+        display: none;
+    }
+    
+    .fondo {
+       
+        width: 100%;
+        /* margin-top: 180px; */
+    }
+   
+    .foto{
+        
+        display: none;
+
+}
+
+.imagen2 img{
+    width: 30%;
+    height: 30%;
+
+}
+
+#parte6{
+    padding-bottom: 80px;
+}
+.tarjetas{
+   display: block;
+}
+.tarjetas .cards{
+    margin: 0 auto;
+}
+
+
+}
+
